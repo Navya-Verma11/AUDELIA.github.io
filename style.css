@@ -1,0 +1,407 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#navbar{
+  display: flex;
+  align-items : center;
+  position:relative;
+}
+#navbar::before{
+  content:"";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  
+}
+
+:root{
+  --navbar-height:59px;
+}
+#logo{
+  margin: 10px 44px;
+}
+#logo img{
+  height: 49px;
+  margin: 3px 16px;
+}
+#navbar{
+  position: relative;
+}
+#navbar ul{
+  display: flex;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#navbar ul li{
+  list-style: none;
+  font-size: 1.2rem;
+}
+#navbar ul li a{
+  color: white;
+  display: block;
+  padding:3px 22px ;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color: black;
+  background-color: white;
+  display: block;
+  padding:3px 22px ;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#home{
+  display:flex;
+  height: 578px;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  
+}
+#home::before{
+  content:"";
+  position: absolute;
+  background: url(https://png.pngtree.com/background/20210710/original/pngtree-women-s-day-queen-s-day-goddess-festival-beautiful-flowers-pink-picture-image_1010102.jpg)no-repeat center center/cover;
+  height: 70%;
+  width: 100%;
+  z-index: -8;
+  opacity: 0.89;
+}
+#home h1{
+  color: black;
+  background-color: lightpink;
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: 'Roboto', sans-serif;
+}
+#home p {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  
+}
+#causes{
+    margin: 34px;
+    display: flex;
+  
+    
+}
+#causes .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#causes .box img{ 
+   height: 200px;
+   margin: auto;
+   display: block;
+}
+
+#causes .box p{
+    font-family: 'Bree Serif', serif;
+}
+#causes1{
+    margin: 34px;
+    display: flex;
+  
+}
+#causes1 .box1{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#causes1 .box1 img{ 
+   height: 200px;
+   margin: auto;
+   display: block;
+}
+
+#causes1 .box1 p{
+    font-family: 'Bree Serif', serif;
+
+}
+#community-section{ 
+    position: relative;
+}
+
+#community-section::before{
+ content: "";
+ position: absolute;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfzRTS65CHVmcO050S5BqnnJErK2W5uax7Q&usqp=CAU');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#community{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-item{
+    padding: 34px;
+}
+
+#commmunity img{
+    height: 200px;
+}
+#projects-section{ 
+    position: relative;
+}
+
+#projects-section::before{
+ content: "";
+ position: absolute;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfzRTS65CHVmcO050S5BqnnJErK2W5uax7Q&usqp=CAU');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-item{
+    padding: 34px;
+}
+
+#projects img{
+    height: 200px;
+}
+#survey-section{ 
+    position: relative;
+}
+
+#survey-section::before{
+ content: "";
+ position: absolute;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfzRTS65CHVmcO050S5BqnnJErK2W5uax7Q&usqp=CAU');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#survey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.survey-item{
+    padding: 34px;
+}
+
+#survey img{
+    height: 500px;
+  width:400px;
+}
+
+
+
+
+
+#YouMatter-section{ 
+    position: relative;
+}
+
+
+#YouMatter-section::before{
+ content: "";
+ position: absolute;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfzRTS65CHVmcO050S5BqnnJErK2W5uax7Q&usqp=CAU');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+
+#YouMatter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.YouMatter-item{
+    padding: 34px;
+}
+
+#YouMatter img{
+    height: 500px;
+  width:300px;
+}
+#YouMatter1-section{ 
+    position: relative;
+}
+
+#YouMatter1-section::before{
+ content: "";
+ position: absolute;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfzRTS65CHVmcO050S5BqnnJErK2W5uax7Q&usqp=CAU');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#YouMatter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.YouMatter1-item{
+    padding: 34px;
+}
+
+#YouMatter1 img{
+    height: 500px;
+    width:300px;
+}
+
+#AboutUs-section::before{
+ content: "";
+ position: absolute;
+ background-color: white;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#AboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs-item{
+    padding: 34px;
+}
+
+#AboutUs img{
+    height: 200px;
+  width: 500px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('https://www.droptica.com/sites/droptica.com/files/styles/blog_banner_image/public/media/image/contact-pages.png?itok=hIt85Ptt') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: lightgreen;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.btn{
+  padding: 2px solid white;
+  background:LIGHT;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.center{
+  text-align: center;
+}
